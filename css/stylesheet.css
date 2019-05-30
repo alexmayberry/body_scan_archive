@@ -1,15 +1,135 @@
 img {
     width: 100%;
-    z-index: -1;
+    z-index: 0;
 }
 
 .background {
     width: 100%;
-  z-index: -1;
+  z-index: 0;
 }
 
-.header {
-    z-index: 1;
-    font-size: 4rem;
-    font-family: sans-serif;
-    font-weight: 500;
+.headername {
+    color: black;
+    position:absolute;
+    transform:rotate(27.7deg);
+    margin-left: 45.5%;
+    margin-top: 5%;
+    z-index: 2;
+    
+    font-size: 7rem;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    }
+
+.headername :hover {
+    color: white;
+}
+
+.copywrite {
+    transform: rotate(3.7deg);
+    margin-top: -27.5%;
+    z-index: 0;
+    
+}
+
+.about :hover {
+    color: white;
+}
+
+.small-link {
+    position:absolute;
+    height: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    z-index: 2; 
+}
+
+.small-link :hover {
+    background-color: white;
+}
+
+.about {
+    position:absolute;
+    margin-top: 65%;   
+}
+
+.resume {
+    position:absolute;
+    margin-top: 55%;
+}
+
+.drawings {
+    position:absolute;
+    margin-top: 125%;
+}
+
+.posters {
+    position:absolute;
+    margin-top: 137%;
+}
+
+.photos {
+    position:absolute;
+    margin-top: 140%;
+}
+
+.scab {
+    position:absolute;
+    margin-top: 160%;
+}
+
+.resource-book {
+    position:absolute;
+    margin-top: 170%;
+}
+
+.eagle-project {
+    position:absolute;
+    margin-top: 175%;
+}
+
+.animation {
+    position:absolute;
+    margin-top: 185%;
+}
+
+.sketchbook {
+    position:absolute;
+    margin-top: 195%;
+}
+
+.sketchbook-too {
+    position:absolute;
+    margin-top: 202%;
+}
+
+.fear-book {
+    position:absolute;
+    margin-top: 195%;
+}
+
+.seattle-seed {
+    position:absolute;
+    margin-top: 220%;
+}
+
+.puget-jam {
+    position:absolute;
+    margin-top: 215%;
+}
+
+.maestro {
+    position:absolute;
+    margin-top: 217%;
+}
+
+.poetry-site {
+    position:absolute;
+    margin-top: 140%;
+    height: 1000px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    z-index: 2; 
+}
