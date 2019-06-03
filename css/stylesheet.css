@@ -9,16 +9,16 @@ img {
 }
 
 .headername {
-    color: black;
     position:absolute;
-    transform:rotate(27.7deg);
-    margin-left: 45.5%;
-    margin-top: 5%;
+    transform:rotate(297.5deg);
+    margin-left: -5%;
+    margin-top: 25%;
     z-index: 2;
-    
-    font-size: 7rem;
+    color: navy;
     font-family: 'open sans', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
+    line-height: 80%;
+    font-size: 8vw;
     }
 
 .headername :hover {
@@ -32,10 +32,6 @@ img {
     
 }
 
-.about :hover {
-    color: white;
-}
-
 .small-link {
     position:absolute;
     height: 100px;
@@ -45,8 +41,14 @@ img {
     z-index: 2; 
 }
 
-.small-link :hover {
-    background-color: white;
+.page-title {
+    position: fixed;
+    top: 2%;
+    color: navy;
+    font-family: 'open sans', sans-serif;
+    font-weight: 600;
+    line-height: 80%;
+    font-size: 8vw;
 }
 
 .about {
@@ -59,77 +61,325 @@ img {
     margin-top: 55%;
 }
 
+/* drawings
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .drawings {
     position:absolute;
-    margin-top: 125%;
+    margin-top: 122%;
+    border: none;
 }
 
+.drawing-patch {
+    display: none;
+}
+
+.drawings-title {
+    display: none;
+
+    z-index: 2;
+}
+
+.drawings-link:hover .drawing-patch {
+    display: block;
+}
+
+.drawings-link:hover .drawings-title {
+    display: block;
+}
+
+/* posters
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .posters {
     position:absolute;
     margin-top: 137%;
+    border: none;
 }
 
+.posters-patch {
+    display: none;
+}
+
+.posters-title {
+    display: none;
+}
+
+.posters-link:hover .posters-patch {
+    display: block;
+}
+
+.posters-link:hover .posters-title {
+    display: block;
+}
+
+/* photos
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .photos {
     position:absolute;
     margin-top: 140%;
+    border: none;
 }
 
+.photos-patch {
+    display: none;
+}
+
+.photos-title {
+    display: none;
+
+    z-index: 2;
+}
+
+.photos-link:hover .photos-patch {
+    display: block;
+}
+
+.photos-link:hover .photos-title {
+    display: block;
+}
+
+/* scab
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .scab {
     position:absolute;
-    margin-top: 160%;
+    margin-top: 157%;
+    border: none;
 }
 
+.scab-patch {
+    display: none;
+}
+
+.scab-title {
+    display: none;
+}
+
+.scab-link:hover .scab-patch {
+    display: block;
+}
+
+.scab-link:hover .scab-title {
+    display: block;
+}
+
+/* resource book
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .resource-book {
     position:absolute;
-    margin-top: 170%;
+    margin-top: 163%;
+    border: none;
 }
 
+.resource-book-patch {
+    display: none;
+}
+
+.resource-book-title {
+    display: none;
+}
+
+.resource-book-link:hover .resource-book-patch {
+    display: block;
+}
+
+.resource-book-link:hover .resource-book-title {
+    display: block;
+}
+
+/* eagle project
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .eagle-project {
     position:absolute;
-    margin-top: 175%;
+    margin-top: 173%;
+    border: none;
 }
 
+.eagle-project-patch {
+    display: none;
+}
+
+.eagle-project-title {
+    display: none;
+}
+
+.eagle-project-link:hover .eagle-project-patch {
+    display: block;
+}
+
+.eagle-project-link:hover .eagle-project-title {
+    display: block;
+}
+
+/* animations
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .animation {
     position:absolute;
-    margin-top: 185%;
+    margin-top: 183%;
+    border: none;
 }
 
+.animation-patch {
+    display: none;
+}
+
+.animation-title {
+    display: none;
+}
+
+.animation-link:hover .animation-patch {
+    display: block;
+}
+
+.animation-link:hover .animation-title {
+    display: block;
+}
+
+/* sketchbooks
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .sketchbook {
     position:absolute;
-    margin-top: 195%;
+    margin-top: 193%;
+    border: none;
 }
 
-.sketchbook-too {
-    position:absolute;
-    margin-top: 202%;
+.sketchbook-patch {
+    display: none;
 }
 
+.sketchbook-title {
+    display: none;
+}
+
+.sketchbook-link:hover .sketchbook-patch {
+    display: block;
+}
+
+.sketchbook-link:hover .sketchbook-title {
+    display: block;
+}
+
+/* fear-book
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .fear-book {
     position:absolute;
-    margin-top: 195%;
+    margin-top: 193%;
+    border: none;
 }
 
+.fear-book-patch {
+    display: none;
+}
+
+.fear-book-title {
+    display: none;
+}
+
+.fear-book-link:hover .fear-book-patch {
+    display: block;
+}
+
+.fear-book-link:hover .fear-book-title {
+    display: block;
+}
+
+/* seattle seed co
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .seattle-seed {
     position:absolute;
     margin-top: 220%;
+    border: none;
 }
 
+.seattle-seed-patch {
+    display: none;
+}
+
+.seattle-seed-title {
+    display: none;
+}
+
+.seattle-seed-link:hover .seattle-seed-patch {
+    display: block;
+}
+
+.seattle-seed-link:hover .seattle-seed-title {
+    display: block;
+}
+
+/* puget sound jam
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .puget-jam {
     position:absolute;
     margin-top: 215%;
+    border: none;
 }
 
+.puget-jam-patch {
+    display: none;
+}
+
+.puget-jam-title {
+    display: none;
+}
+
+.puget-jam-link:hover .puget-jam-patch {
+    display: block;
+}
+
+.puget-jam-link:hover .puget-jam-title {
+    display: block;
+}
+
+/* maestro
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .maestro {
     position:absolute;
     margin-top: 217%;
+    border: none;
 }
 
+.maestro-patch {
+    display: none;
+}
+
+.maestro-title {
+    display: none;
+}
+
+.maestro-link:hover .maestro-patch {
+    display: block;
+}
+
+.maestro-link:hover .maestro-title {
+    display: block;
+}
+
+/* poetry is not a luxury
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .poetry-site {
     position:absolute;
     margin-top: 140%;
-    height: 1000px;
+    width: 486px;
+    height: 130%;
     border-style: solid;
     border-width: 5px;
     border-color: red;
     z-index: 2; 
+    border: none;
+}
+
+.poetry-site-patch {
+    display: none;
+    resize: vertical 100%;
+}
+
+.poetry-site-title {
+    display: none;
+}
+
+.poetry-site-link:hover .poetry-site-patch {
+    display: block;
+}
+
+.poetry-site-link:hover .poetry-site-title {
+    display: block;
 }
